@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Joseph's Kitchen | Authentic Kerala Recipes</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; line-height: 1.6; color: #333; }
+        
+        /* Navigation */
+        nav { background-color: #333; padding: 15px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #ff4757; }
+
+        /* Hero Section */
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('hero-bg.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: white; 
+            padding: 80px 20px; 
+            text-align: center; 
+        }
+        .hero h1 { font-size: 3rem; margin-bottom: 10px; }
+        .hero p { font-size: 1.2rem; max-width: 700px; margin: 0 auto 20px; }
+
+        /* Container */
+        .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+        
+        /* Recipe Card */
+        h2 { border-bottom: 3px solid #ff4757; display: inline-block; padding-bottom: 5px; }
+        .recipe-grid { margin-top: 20px; }
+        
+        .recipe-card { 
+            display: flex; 
+            border: 1px solid #ddd; 
+            border-radius: 12px; 
+            overflow: hidden; 
+            background: white; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+            transition: 0.3s; 
+        }
+        .recipe-card:hover { transform: translateY(-5px); }
+        .recipe-card img { width: 350px; height: 250px; object-fit: cover; }
+        
+        .recipe-content { padding: 25px; flex: 1; }
+        .recipe-content h3 { margin-top: 0; color: #ff4757; }
+        
+        .btn { 
+            display: inline-block; 
+            background: #ff4757; 
+            color: white; 
+            padding: 12px 25px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        /* Footer */
+        footer { text-align: center; padding: 40px; background: #333; color: white; margin-top: 60px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="day.1.htm">Latest Recipe</a>
+    <a href="about.html">About Me</a>
+</nav>
+
+    <header class="hero">
+        <h1>Chef Joseph's Kitchen</h1>
+        <p>Bringing 11 Years of Professional Culinary Expertise from Kerala to Your Home</p>
+        <a href="about.html" class="btn" style="background: white; color: #333;">Meet the Chef</a>
+    </header>
+
+    <div class="container">
+        <h2>Featured Recipe</h2>
+        
+        <div class="recipe-grid">
+            <div class="recipe-card">
+                <img src="Egg_roast.jpg" alt="Kerala Egg Roast">
+                <div class="recipe-content">
+                    <h3>Traditional Kerala Egg Roast</h3>
+                    <p>Learn the professional "vazhathiyal" technique for perfect slow-cooked onions. This recipe brings authentic restaurant-quality flavor to your breakfast table.</p>
+                    <p><strong>Prep time:</strong> 10 mins | <strong>Expertise:</strong> Professional</p>
+                    <a href="day.1.htm" class="btn">View Full Recipe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+    <p>&copy; 2026 Joseph T T | Professional Chef</p>
+    <p>BSc Hotel Management | Specialized in Kerala Cuisine</p>
+    
+    <div style="margin-top: 15px;">
+        <a href="https://t.me/ChefJosephOfficial" target="_blank" 
+           style="color: #26A5E4; text-decoration: none; font-weight: bold; border: 1px solid #26A5E4; padding: 8px 15px; border-radius: 20px;">
+           💬 Get Daily Tips on Telegram
+        </a>
+    </div>
+</footer>
+</body>
+</html>
